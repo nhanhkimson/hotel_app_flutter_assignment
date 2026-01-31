@@ -81,7 +81,8 @@ class _SearchScreenState extends State<SearchScreen> {
                               context: context,
                               initialDate: _checkIn,
                               firstDate: DateTime.now(),
-                              lastDate: DateTime.now().add(const Duration(days: 365)),
+                              lastDate: DateTime.now().add(
+                                  const Duration(days: 365)),
                             );
                             if (date != null) {
                               setState(() {
@@ -100,7 +101,8 @@ class _SearchScreenState extends State<SearchScreen> {
                                 const Icon(Icons.calendar_today, size: 20),
                                 const SizedBox(width: 12),
                                 Text(
-                                  '${_checkIn.day}/${_checkIn.month}/${_checkIn.year}',
+                                  '${_checkIn.day}/${_checkIn.month}/${_checkIn
+                                      .year}',
                                   style: const TextStyle(fontSize: 14),
                                 ),
                               ],
@@ -129,7 +131,8 @@ class _SearchScreenState extends State<SearchScreen> {
                               context: context,
                               initialDate: _checkOut,
                               firstDate: _checkIn.add(const Duration(days: 1)),
-                              lastDate: DateTime.now().add(const Duration(days: 365)),
+                              lastDate: DateTime.now().add(
+                                  const Duration(days: 365)),
                             );
                             if (date != null) {
                               setState(() {
@@ -148,7 +151,8 @@ class _SearchScreenState extends State<SearchScreen> {
                                 const Icon(Icons.calendar_today, size: 20),
                                 const SizedBox(width: 12),
                                 Text(
-                                  '${_checkOut.day}/${_checkOut.month}/${_checkOut.year}',
+                                  '${_checkOut.day}/${_checkOut
+                                      .month}/${_checkOut.year}',
                                   style: const TextStyle(fontSize: 14),
                                 ),
                               ],
@@ -173,7 +177,8 @@ class _SearchScreenState extends State<SearchScreen> {
               ),
               const SizedBox(height: 8),
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 16, vertical: 8),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(12),

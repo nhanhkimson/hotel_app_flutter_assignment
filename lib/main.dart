@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hotel_app/MainScreen.dart';
+import 'package:hotel_app/UI/SplashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,14 +14,14 @@ class MyApp extends StatelessWidget {
       title: 'Hotel Booking',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.blue,
+          seedColor: Colors.purple,
           brightness: Brightness.light,
         ),
       ),
-      home: const MainScreen(),
+      home: const SplashScreen(),
     );
   }
 }

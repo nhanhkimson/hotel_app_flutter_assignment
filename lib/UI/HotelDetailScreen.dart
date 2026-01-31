@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hotel_app/UI/BookingSuccessScreen.dart';
+import 'package:hotel_app/UI/SelectRoomScreen.dart';
 
 class HotelDetailScreen extends StatelessWidget {
   final String hotelName;
@@ -302,7 +302,12 @@ class HotelDetailScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const BookingSuccessScreen(),
+                          builder: (context) => SelectRoomScreen(
+                            hotelName: hotelName,
+                            location: location,
+                            price: price,
+                            rating: rating,
+                          ),
                         ),
                       );
                     },
