@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hotel_profile_screen/screens/success_change_password_screen.dart';
+import 'package:hotel_app/UI/success_change_password_screen.dart';
 
 class ChangePasswordScreen extends StatefulWidget {
   const ChangePasswordScreen({super.key});

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hotel_profile_screen/screens/about_screen.dart';
-import 'package:hotel_profile_screen/screens/change_password_screen.dart';
-import 'package:hotel_profile_screen/screens/fqa_screen.dart';
-import 'package:hotel_profile_screen/screens/my_profile_screen.dart';
-import 'package:hotel_profile_screen/screens/transaction_history_screen.dart';
+import 'package:hotel_app/UI/about_screen.dart';
+import 'package:hotel_app/UI/change_password_screen.dart';
+import 'package:hotel_app/UI/fqa_screen.dart';
+import 'package:hotel_app/UI/my_profile_screen.dart';
+import 'package:hotel_app/UI/transaction_history_screen.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
