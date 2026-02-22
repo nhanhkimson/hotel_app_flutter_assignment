@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1",
+    "hotelId": "2",
+    "name": "Deluxe Suite",
+    "location": "Alice Springs, Australia",
+    "date": "25 Jan, 2026",
+    "price": "250.0",
+    "features": ["King Bed", "Ocean View", "Living Room"],
+    "imageUrl": "assets/static/Room/room_deluxe_suite.jpeg"
+  },
+  {
+    "id": "2",
+    "hotelId": "3",
+    "name": "Beachfront Room",
+    "location": "Bali, Indonesia",
+    "date": "25 Jan, 2026",
+    "price": "200.0",
+    "features": ["King Bed", "Ocean View", "Balcony"],
+    "imageUrl": "assets/static/Room/room_beachfront.jpeg"
+  },
+  {
+    "id": "3",
+    "hotelId": "2",
+    "name": "Executive Room",
+    "location": "Alice Springs, Australia",
+    "date": "19 Jan, 2026",
+    "price": "220.0",
+    "features": ["King Bed", "City View", "Free Wifi"],
+    "imageUrl": "assets/static/Room/room_executive.jpeg"
+  },
+  {
+    "id": "4",
+    "hotelId": "1",
+    "name": "Standard Room",
+    "location": "Wilora NT 0872, Australia",
+    "date": "20 Jan, 2026",
+    "price": "180.0",
+    "features": ["Queen Bed", "Garden View"],
+    "imageUrl": "assets/static/Room/room_standard.jpeg"
+  },
+  {
+    "id": "5",
+    "hotelId": "4",
+    "name": "Penthouse Suite",
+    "location": "New York, USA",
+    "date": "22 Jan, 2026",
+    "price": "450.0",
+    "features": ["King Bed", "City View", "Jacuzzi", "Kitchen"],
+    "imageUrl": "assets/static/Room/room_penthouse.jpeg"
+  },
+  {
+    "id": "6",
+    "hotelId": "5",
+    "name": "Water Villa",
+    "location": "Maldives",
+    "date": "24 Jan, 2026",
+    "price": "500.0",
+    "features": ["King Bed", "Ocean View", "Private Pool"],
+    "imageUrl": "assets/static/Room/room_water_villa.jpeg"
+  },
+  {
+    "id": "7",
+    "hotelId": "6",
+    "name": "Alpine Chalet",
+    "location": "Switzerland",
+    "date": "26 Jan, 2026",
+    "price": "350.0",
+    "features": ["King Bed", "Mountain View", "Fireplace"],
+    "imageUrl": "assets/static/Room/room_alpine_chalet.jpeg"
+  },
+  {
+    "id": "8",
+    "hotelId": "7",
+    "name": "Luxury Suite",
+    "location": "Dubai, UAE",
+    "date": "28 Jan, 2026",
+    "price": "600.0",
+    "features": ["King Bed", "City View", "Butler Service"],
+    "imageUrl": "assets/static/Room/room_luxury_suite.jpeg"
+  },
+  {
+    "id": "9",
+    "hotelId": "8",
+    "name": "Tropical Bungalow",
+    "location": "Thailand",
+    "date": "30 Jan, 2026",
+    "price": "180.0",
+    "features": ["King Bed", "Beach View", "Private Terrace"],
+    "imageUrl": "assets/static/Room/room_tropical_bungalow.jpeg"
+  }
+]
+

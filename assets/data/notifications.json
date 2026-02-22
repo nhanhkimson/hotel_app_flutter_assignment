@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "title": "Booking Confirmed",
+    "message": "Your booking at The Aston Villa Hotel has been confirmed for 19 Jan, 2026",
+    "type": "booking",
+    "dateTime": "2026-01-22T14:00:00Z",
+    "isRead": false,
+    "actionUrl": "/orders"
+  },
+  {
+    "id": "2",
+    "title": "Special Offer",
+    "message": "Get 20% off on your next booking! Limited time offer.",
+    "type": "promotion",
+    "dateTime": "2026-01-21T10:00:00Z",
+    "isRead": false,
+    "actionUrl": "/home"
+  },
+  {
+    "id": "3",
+    "title": "Reminder",
+    "message": "Your booking at Sunset Paradise Resort is coming up in 3 days",
+    "type": "reminder",
+    "dateTime": "2026-01-20T08:00:00Z",
+    "isRead": false,
+    "actionUrl": "/schedule"
+  },
+  {
+    "id": "4",
+    "title": "Payment Successful",
+    "message": "Your payment of $200.7 has been processed successfully",
+    "type": "booking",
+    "dateTime": "2026-01-19T16:00:00Z",
+    "isRead": true,
+    "actionUrl": "/orders"
+  },
+  {
+    "id": "5",
+    "title": "Welcome Bonus",
+    "message": "Welcome to StayHub! Get 100 bonus points on your first booking",
+    "type": "promotion",
+    "dateTime": "2026-01-17T12:00:00Z",
+    "isRead": true
+  }
+]
+

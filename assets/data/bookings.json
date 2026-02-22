@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "hotelName": "The Aston Villa Hotel",
+    "location": "Alice Springs, Australia",
+    "date": "19 Jan, 2026",
+    "price": "200.7",
+    "imageUrl": "assets/static/Hotel/hotel_aston_villa_2.jpeg"
+  },
+  {
+    "id": "2",
+    "hotelName": "Sunset Paradise Resort",
+    "location": "Bali, Indonesia",
+    "date": "25 Jan, 2026",
+    "price": "180.5",
+    "imageUrl": "assets/static/Hotel/hotel_sunset_paradise_2.jpeg"
+  },
+  {
+    "id": "3",
+    "hotelName": "Ocean View Resort",
+    "location": "Maldives",
+    "date": "24 Jan, 2026",
+    "price": "320.0",
+    "imageUrl": "assets/static/Hotel/hotel_ocean_view_2.jpeg"
+  },
+  {
+    "id": "4",
+    "hotelName": "Mountain Peak Lodge",
+    "location": "Switzerland",
+    "date": "26 Jan, 2026",
+    "price": "280.5",
+    "imageUrl": "assets/static/Hotel/hotel_mountain_peak_2.jpeg"
+  }
+]
+

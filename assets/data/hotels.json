@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "name": "Asterial Hotel",
+    "location": "Wilora NT 0872, Australia",
+    "price": "16.4",
+    "rating": 5.0,
+    "imageUrl": "assets/static/Hotel/hotel_asterial.jpeg",
+    "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+    "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+  },
+  {
+    "id": "2",
+    "name": "The Aston Villa Hotel",
+    "location": "Alice Springs, Australia",
+    "price": "200.7",
+    "rating": 4.9,
+    "imageUrl": "assets/static/Hotel/hotel_aston_villa.jpeg",
+    "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+    "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+  },
+  {
+    "id": "3",
+    "name": "Sunset Paradise Resort",
+    "location": "Bali, Indonesia",
+    "price": "180.5",
+    "rating": 4.8,
+    "imageUrl": "assets/static/Hotel/hotel_sunset_paradise.jpeg",
+    "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+    "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+  },
+  {
+    "id": "4",
+    "name": "Grand Plaza Hotel",
+    "location": "New York, USA",
+    "price": "250.0",
+    "rating": 4.8,
+    "imageUrl": "assets/static/Hotel/hotel_grand_plaza.jpeg",
+    "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+    "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+  },
+  {
+    "id": "5",
+    "name": "Ocean View Resort",
+    "location": "Maldives",
+    "price": "320.0",
+    "rating": 4.9,
+    "imageUrl": "assets/static/Hotel/hotel_ocean_view.jpeg",
+    "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+    "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+  },
+  {
+    "id": "6",
+    "name": "Mountain Peak Lodge",
+    "location": "Switzerland",
+    "price": "280.5",
+    "rating": 4.7,
+    "imageUrl": "assets/static/Hotel/hotel_mountain_peak.jpeg",
+    "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+    "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+  },
+  {
+    "id": "7",
+    "name": "Desert Oasis Hotel",
+    "location": "Dubai, UAE",
+    "price": "350.0",
+    "rating": 5.0,
+    "imageUrl": "assets/static/Hotel/hotel_desert_oasis.jpeg",
+    "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+    "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+  },
+  {
+    "id": "8",
+    "name": "Tropical Paradise Inn",
+    "location": "Thailand",
+    "price": "150.0",
+    "rating": 4.6,
+    "imageUrl": "assets/static/Hotel/hotel_tropical_paradise.jpeg",
+    "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+    "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+  }
+]
+

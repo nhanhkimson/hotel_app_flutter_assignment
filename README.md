@@ -1,6 +1,6 @@
-# hotel_app
+# StayHub
 
-A new Flutter project.
+A Flutter hotel booking application.
 
 ## Getting Started
 

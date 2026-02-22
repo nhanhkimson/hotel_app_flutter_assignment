@@ -1,0 +1,261 @@
+{
+  "hotels": [
+    {
+      "id": "1",
+      "name": "Asterial Hotel",
+      "location": "Wilora NT 0872, Australia",
+      "price": "16.4",
+      "rating": 5.0,
+      "imageUrl": "assets/static/Hotel/hotel_asterial.jpeg",
+      "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+      "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+    },
+    {
+      "id": "2",
+      "name": "The Aston Villa Hotel",
+      "location": "Alice Springs, Australia",
+      "price": "200.7",
+      "rating": 4.9,
+      "imageUrl": "assets/static/Hotel/hotel_aston_villa.jpeg",
+      "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+      "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+    },
+    {
+      "id": "3",
+      "name": "Sunset Paradise Resort",
+      "location": "Bali, Indonesia",
+      "price": "180.5",
+      "rating": 4.8,
+      "imageUrl": "assets/static/Hotel/hotel_sunset_paradise.jpeg",
+      "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+      "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+    },
+    {
+      "id": "4",
+      "name": "Grand Plaza Hotel",
+      "location": "New York, USA",
+      "price": "250.0",
+      "rating": 4.8,
+      "imageUrl": "assets/static/Hotel/hotel_grand_plaza.jpeg",
+      "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+      "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+    },
+    {
+      "id": "5",
+      "name": "Ocean View Resort",
+      "location": "Maldives",
+      "price": "320.0",
+      "rating": 4.9,
+      "imageUrl": "assets/static/Hotel/hotel_ocean_view.jpeg",
+      "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+      "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+    },
+    {
+      "id": "6",
+      "name": "Mountain Peak Lodge",
+      "location": "Switzerland",
+      "price": "280.5",
+      "rating": 4.7,
+      "imageUrl": "assets/static/Hotel/hotel_mountain_peak.jpeg",
+      "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+      "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+    },
+    {
+      "id": "7",
+      "name": "Desert Oasis Hotel",
+      "location": "Dubai, UAE",
+      "price": "350.0",
+      "rating": 5.0,
+      "imageUrl": "assets/static/Hotel/hotel_desert_oasis.jpeg",
+      "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+      "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+    },
+    {
+      "id": "8",
+      "name": "Tropical Paradise Inn",
+      "location": "Thailand",
+      "price": "150.0",
+      "rating": 4.6,
+      "imageUrl": "assets/static/Hotel/hotel_tropical_paradise.jpeg",
+      "description": "Experience luxury living in this stunning villa resort. Nestled in the heart of Alice Springs, our property offers breathtaking views and world-class amenities.",
+      "amenities": ["Wi-Fi", "Gym", "Coffee", "Pool", "Luggage", "TV"]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "hotelId": "2",
+      "name": "Deluxe Suite",
+      "location": "Alice Springs, Australia",
+      "date": "25 Jan, 2026",
+      "price": "250.0",
+      "features": ["King Bed", "Ocean View", "Living Room"],
+      "imageUrl": "assets/static/Room/room_deluxe_suite.jpeg"
+    },
+    {
+      "id": "2",
+      "hotelId": "3",
+      "name": "Beachfront Room",
+      "location": "Bali, Indonesia",
+      "date": "25 Jan, 2026",
+      "price": "200.0",
+      "features": ["King Bed", "Ocean View", "Balcony"],
+      "imageUrl": "assets/static/Room/room_beachfront.jpeg"
+    },
+    {
+      "id": "3",
+      "hotelId": "2",
+      "name": "Executive Room",
+      "location": "Alice Springs, Australia",
+      "date": "19 Jan, 2026",
+      "price": "220.0",
+      "features": ["King Bed", "City View", "Free Wifi"],
+      "imageUrl": "assets/static/Room/room_executive.jpeg"
+    },
+    {
+      "id": "4",
+      "hotelId": "1",
+      "name": "Standard Room",
+      "location": "Wilora NT 0872, Australia",
+      "date": "20 Jan, 2026",
+      "price": "180.0",
+      "features": ["Queen Bed", "Garden View"],
+      "imageUrl": "assets/static/Room/room_standard.jpeg"
+    },
+    {
+      "id": "5",
+      "hotelId": "4",
+      "name": "Penthouse Suite",
+      "location": "New York, USA",
+      "date": "22 Jan, 2026",
+      "price": "450.0",
+      "features": ["King Bed", "City View", "Jacuzzi", "Kitchen"],
+      "imageUrl": "assets/static/Room/room_penthouse.jpeg"
+    },
+    {
+      "id": "6",
+      "hotelId": "5",
+      "name": "Water Villa",
+      "location": "Maldives",
+      "date": "24 Jan, 2026",
+      "price": "500.0",
+      "features": ["King Bed", "Ocean View", "Private Pool"],
+      "imageUrl": "assets/static/Room/room_water_villa.jpeg"
+    },
+    {
+      "id": "7",
+      "hotelId": "6",
+      "name": "Alpine Chalet",
+      "location": "Switzerland",
+      "date": "26 Jan, 2026",
+      "price": "350.0",
+      "features": ["King Bed", "Mountain View", "Fireplace"],
+      "imageUrl": "assets/static/Room/room_alpine_chalet.jpeg"
+    },
+    {
+      "id": "8",
+      "hotelId": "7",
+      "name": "Luxury Suite",
+      "location": "Dubai, UAE",
+      "date": "28 Jan, 2026",
+      "price": "600.0",
+      "features": ["King Bed", "City View", "Butler Service"],
+      "imageUrl": "assets/static/Room/room_luxury_suite.jpeg"
+    },
+    {
+      "id": "9",
+      "hotelId": "8",
+      "name": "Tropical Bungalow",
+      "location": "Thailand",
+      "date": "30 Jan, 2026",
+      "price": "180.0",
+      "features": ["King Bed", "Beach View", "Private Terrace"],
+      "imageUrl": "assets/static/Room/room_tropical_bungalow.jpeg"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "hotelName": "The Aston Villa Hotel",
+      "location": "Alice Springs, Australia",
+      "date": "19 Jan, 2026",
+      "price": "200.7",
+      "imageUrl": "assets/static/Hotel/hotel_aston_villa_2.jpeg"
+    },
+    {
+      "id": "2",
+      "hotelName": "Sunset Paradise Resort",
+      "location": "Bali, Indonesia",
+      "date": "25 Jan, 2026",
+      "price": "180.5",
+      "imageUrl": "assets/static/Hotel/hotel_sunset_paradise_2.jpeg"
+    },
+    {
+      "id": "3",
+      "hotelName": "Ocean View Resort",
+      "location": "Maldives",
+      "date": "24 Jan, 2026",
+      "price": "320.0",
+      "imageUrl": "assets/static/Hotel/hotel_ocean_view_2.jpeg"
+    },
+    {
+      "id": "4",
+      "hotelName": "Mountain Peak Lodge",
+      "location": "Switzerland",
+      "date": "26 Jan, 2026",
+      "price": "280.5",
+      "imageUrl": "assets/static/Hotel/hotel_mountain_peak_2.jpeg"
+    }
+  ],
+  "currentLocation": {
+    "city": "Phnom Penh",
+    "country": "Cambodia"
+  },
+  "notifications": [
+    {
+      "id": "1",
+      "title": "Booking Confirmed",
+      "message": "Your booking at The Aston Villa Hotel has been confirmed for 19 Jan, 2026",
+      "type": "booking",
+      "dateTime": "2026-01-22T14:00:00Z",
+      "isRead": false,
+      "actionUrl": "/orders"
+    },
+    {
+      "id": "2",
+      "title": "Special Offer",
+      "message": "Get 20% off on your next booking! Limited time offer.",
+      "type": "promotion",
+      "dateTime": "2026-01-21T10:00:00Z",
+      "isRead": false,
+      "actionUrl": "/home"
+    },
+    {
+      "id": "3",
+      "title": "Reminder",
+      "message": "Your booking at Sunset Paradise Resort is coming up in 3 days",
+      "type": "reminder",
+      "dateTime": "2026-01-20T08:00:00Z",
+      "isRead": false,
+      "actionUrl": "/schedule"
+    },
+    {
+      "id": "4",
+      "title": "Payment Successful",
+      "message": "Your payment of $200.7 has been processed successfully",
+      "type": "booking",
+      "dateTime": "2026-01-19T16:00:00Z",
+      "isRead": true,
+      "actionUrl": "/orders"
+    },
+    {
+      "id": "5",
+      "title": "Welcome Bonus",
+      "message": "Welcome to Hotel App! Get 100 bonus points on your first booking",
+      "type": "promotion",
+      "dateTime": "2026-01-17T12:00:00Z",
+      "isRead": true
+    }
+  ]
+}
+
