@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:hotel_app/core/localization/app_localizations.dart';
 import 'package:hotel_app/core/services/language_service.dart';
 import 'package:hotel_app/features/auth/views/forgot_password_new_view.dart';
 import 'package:hotel_app/features/auth/widgets/auth_header.dart';
+
+/// Only this PIN code allows proceeding to the next step (new password).
+const String _validPinCode = '123456';
 
 /// Verify Code View
 class VerifyCodeView extends StatefulWidget {
@@ -69,34 +73,31 @@ class _VerifyCodeViewState extends State<VerifyCodeView> {
 
   void _verifyCode() {
     final enteredCode = _getEnteredCode();
-    if (enteredCode.length == 6) {
-      if (enteredCode == '123456') {
-        // Valid code - navigate to new password screen
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => const ForgotPasswordNewView(),
+    if (enteredCode.length != 6) return;
+    // Only 123456 is accepted; any other 6-digit code shows error and clears fields.
+    if (enteredCode == _validPinCode) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => const ForgotPasswordNewView(),
+        ),
+      );
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            _localizations.isEnglish
+                ? 'Invalid verification code. Please try again.'
+                : 'លេខកូដផ្ទៀងផ្ទាត់មិនត្រឹមត្រូវ។ សូមព្យាយាមម្តងទៀត។',
           ),
-        );
-      } else {
-        // Invalid code - show error
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(
-              _localizations.isEnglish
-                  ? 'Invalid verification code. Please try again.'
-                  : 'លេខកូដផ្ទៀងផ្ទាត់មិនត្រឹមត្រូវ។ សូមព្យាយាមម្តងទៀត។',
-            ),
-            backgroundColor: Colors.red,
-            duration: const Duration(seconds: 2),
-          ),
-        );
-        // Clear all fields
-        for (var controller in _controllers) {
-          controller.clear();
-        }
-        _focusNodes[0].requestFocus();
+          backgroundColor: Colors.red,
+          duration: const Duration(seconds: 2),
+        ),
+      );
+      for (var controller in _controllers) {
+        controller.clear();
       }
+      _focusNodes[0].requestFocus();
     }
   }
 
@@ -141,6 +142,9 @@ class _VerifyCodeViewState extends State<VerifyCodeView> {
                           textAlign: TextAlign.center,
                           maxLength: 1,
                           keyboardType: TextInputType.number,
+                          inputFormatters: [
+                            FilteringTextInputFormatter.digitsOnly,
+                          ],
                           style: const TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
